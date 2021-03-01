@@ -1,0 +1,12 @@
+.bold {
+    font-weight: 700;
+}
+
+.scrollbar {
+    scrollbar-color: #666 #f9f9f9;
+    scrollbar-width: thin;
+    &::-webkit-scrollbar { width: 4px; }
+    &::-webkit-scrollbar-thumb { background-color: #666; border-radius: 2px; }
+    &::-webkit-scrollbar-button { height: 0; }
+    &::-webkit-scrollbar-track-piece { background-color: white; }
+}

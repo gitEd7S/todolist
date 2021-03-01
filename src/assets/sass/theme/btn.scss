@@ -1,0 +1,11 @@
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 15px;
+    border-radius: 2px;
+    &--theme-danger {
+        background-color: #dd4b39;
+        color: white;
+    }
+}
