@@ -1,33 +1,25 @@
 import { createStore } from 'vuex';
-import { workFixing } from '@/libs/workFixing';
 
-import header from './modules/header/index';
+import todolist from '@/store/modules/todolist';
 
 const state = {
-    modal: '',
+
 }
 
 const mutations = {
-    setModal (state, value) {
-        state.modal = value;
-    }
+
 }
 
 const actions = {
-    actionModal ({ commit }, value) {
-        workFixing(!value.length ? 'unfix' : 'fix')
-        commit('setModal', value);
-    }
+
 }
 
 const modules = {
-    header,
+    todolist,
 }
 
 const getters = {
-    getModal (state) {
-        return state.modal;
-    }
+
 }
 
 export default createStore({
